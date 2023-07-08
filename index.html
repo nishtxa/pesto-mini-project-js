@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <script type="module" src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="primary-container" class="primary-container">
+        <div class="prompt-text">
+            <h1> Quote Generator</h1>
+            <span style="font-weight: normal;">Takes a theme and comes up with a quote.</span>
+        </div>
+        <div class="card">
+            <div style="margin-left:1vh;">
+                <h5 style="font-weight: normal;">QUOTE THEME</h5>
+                <textarea id="topic-input" name="topic-input" rows="4" cols="30"></textarea>
+                <span style="font-size: small; font-weight: lighter;">Example: Importance of Parents!</span>
+            </div>
+            <div>
+                <button id="generate-button" style="margin-top: 2vh;"> Generate!</button>
+            </div>
+        </div>
+    </div>
+    <div id="loader-container" class="loader-container">
+        <img style="width: 10vh;" alt="Loading..." src="https://media.tenor.com/NqKNFHSmbssAAAAi/discord-loading-dots-discord-loading.gif">
+    </div>
+    <div id="quotes-container" class="quotes-container">
+    </div>
+</body>
+</html>
