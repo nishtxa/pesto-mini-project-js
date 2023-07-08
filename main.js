@@ -1,4 +1,4 @@
-import {EDENAI_API_KEY} from "./apikey.js";
+import EDENAI_API_KEY from "./apikey.js";
 
 // Define API endpoint and access token
 const API_ENDPOINT =
