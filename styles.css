@@ -93,4 +93,15 @@
         width: 30vh;
         height: 30vh;
     }
+
+    .quotes-container{
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 992px) and (orientation: landscape) {
+    .card{
+        width: 60vh;
+        height: 50vh;
+    }
 }
