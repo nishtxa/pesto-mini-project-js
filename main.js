@@ -93,6 +93,7 @@ function displayQuotes(quotes) {
   helper.classList.add("helper");
   const helpingText = document.createElement("span");
   helpingText.innerText = "Want to generate more quotes?"
+  helpingText.style.color = "white";
   const helpingButton = document.createElement("button");
   helpingButton.innerHTML = "Let's Go!"
   helpingButton.style.marginLeft = "1vh";
